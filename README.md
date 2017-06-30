@@ -14,7 +14,7 @@
   <script src="dragSlider.js"></script> ;   
   
   第二步：配置参数  
-  dragSlider({
+  dragSlider({  
           //轮播图最外层容器的ID,不加#号  
           wrapId: 'wrap',  
           //轮播图内层包裹运动的ul容器的ID,不加#号  
