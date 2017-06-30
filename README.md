@@ -5,16 +5,17 @@
   2.可以通过参数控制小圆点和左右箭头的显示和隐藏，当参数为true的时候，轮播图才会出现小圆点和左右箭头，左右箭头和小圆点是通过两个属性分别控制的，所以二者可以同时出现也可以只出现一个。
   
 ### 使用方法
-  第一步：在html页面中
-  
+##### 第一步：在html页面中  
+```
   '<div id="wrap"></div>'; 
   
   <script src="jquery.min.js"></script> ;   
   
   <script src="dragSlider.js"></script> ;   
-  
-  第二步：配置参数  
-  dragSlider({  
+```
+##### 第二步：配置参数  
+```
+    dragSlider({  
           //轮播图最外层容器的ID,不加#号  
           wrapId: 'wrap',  
           //轮播图内层包裹运动的ul容器的ID,不加#号  
@@ -51,6 +52,6 @@
           rightArrowClass: 'rightArrow',  
           //箭头的颜色  
           arrowColor:'#fff'  
-    });
-  
+      });
+  ```
   
